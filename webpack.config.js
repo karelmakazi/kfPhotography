@@ -4,8 +4,9 @@ module.exports = {
   entry: './client/index.js',
   output: {
     path: path.join(__dirname, 'server/public'),
-    filename: 'bundle.js'
-  },
+    filename: 'bundle.js',
+    publicPath: '/',
+    },
   mode: 'development',
   module: {
     rules: [{
@@ -19,6 +20,7 @@ module.exports = {
   },
   devtool: 'source-map',
   devServer: {
-    contentBase: './server/public'
-  }
+    contentBase: './server/public',
+    historyApiFallback: true,
+  },
 }
