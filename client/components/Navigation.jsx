@@ -8,7 +8,7 @@ class Header extends Component {
     return (
       <div className='headerWrapper'>
         <div className='logoStrip'>
-          <h1>Karel Fourie Photography</h1>
+          <div className='logo'>Karel Fourie Photography</div>
         </div>
         <div className='navStrip'>
           <Link to='/Preschool'><button className='mainNavigation' value=''> Pre-schools </button></Link>

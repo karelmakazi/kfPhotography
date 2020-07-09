@@ -1,0 +1,37 @@
+/* INDEX */
+
+/* GLOBAL */
+h1{
+  font-family: 'Satisfy', cursive;
+  font-size: 60px;
+  color: #F24444;
+}
+
+/* POSITIONING */
+.headerWrapper{
+ height: 13em;
+}
+
+.logoStrip{
+  height: 75%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #260505;
+  }
+
+.navStrip{
+  height: 25%;
+  background-color: #F24444;
+}
+
+/* FORMATTING */
+.logo{
+  height:60%;
+  width: 80%;
+  font-family: 'Satisfy', cursive;
+  font-size: 60px;
+  color: #F24444;
+  background-color: burlywood;
+}
