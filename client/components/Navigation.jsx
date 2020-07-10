@@ -13,7 +13,7 @@ class Header extends Component {
         <div className='navStrip'>
           <Link to='/Preschool'><button className='mainNavigation' value=''> Pre-schools </button></Link>
           <Link to='/Portraits'><button className='mainNavigation' value=''> Portraits </button></Link>
-          <Link to='/Events'><button className='mainNavigation' value=''> Booked Events </button></Link>
+          <Link to='/Events'><button className='mainNavigation' value=''> Events </button></Link>
           <Link to='/Contact'><button className='mainNavigation' value=''> Contact </button></Link>
         </div>
       </div>

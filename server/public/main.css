@@ -2,14 +2,75 @@
 
 /* GLOBAL */
 h1{
+  margin: 0;
   font-family: 'Satisfy', cursive;
   font-size: 60px;
   color: #F24444;
 }
 
-/* POSITIONING */
+h2{
+  margin: 0;
+  font-family: 'Satisfy', cursive;
+  font-size: 50px;
+  color: #F24444;
+}
+
+p{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  text-align: center;
+}
+
+button {
+  width:200px;
+  max-height: 80%;
+  display: inline-block;
+  border: none;
+  margin: 0;
+  background-color: #F24444;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  cursor: pointer;
+  text-align: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+button:hover,
+button:focus {
+  font-weight: 500;
+  outline: none;
+}
+
+
+/* LAYOUT */
 .headerWrapper{
  height: 13em;
+}
+
+.contentWrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slideWrapper{
+  height:600px;
+  width:70%;
+  margin: 3%;
+  border: 5px solid #F24444;
+  background-color: #260505;
+}
+
+.copyWrapper{
+  width: 70%;
+  align-items: center;
+  justify-content: center;
 }
 
 .logoStrip{
@@ -23,15 +84,35 @@ h1{
 
 .navStrip{
   height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #F24444;
 }
 
 /* FORMATTING */
 .logo{
-  height:60%;
+  height:100%;
   width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: 'Satisfy', cursive;
-  font-size: 60px;
+  font-size: 75px;
   color: #F24444;
-  background-color: burlywood;
+}
+
+.quoteBody{
+  font-family: 'Satisfy', cursive;
+  font-size: 40px;
+  line-height: 1.1;
+  color: #F24444;
+  text-align: center;
+}
+
+.quoteAuthor{
+  font-family: 'Satisfy', cursive;
+  font-size: 20px;
+  color: #260505;
+ 
 }
