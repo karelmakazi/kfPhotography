@@ -2,7 +2,7 @@ import React from 'react'
 import { Route } from 'react-router-dom'
 
 //Component Imports
-import Contact from './Contact'
+import Contact from './Bookings'
 import Events from './Events'
 import Footer from './Footer'
 import Home from './Home'
@@ -13,7 +13,7 @@ import Portraits from './Portraits'
 const App = () => {
   return (
     <div className='appContainer'>
-      <Navigation />
+      {/* <Navigation /> */}
       <Route exact path='/' component={ Home } />
       <Route exact path='/Preschool' component={ Preschool } />
       <Route exact path='/Portraits' component={ Portraits } />

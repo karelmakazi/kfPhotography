@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
+import Navigation from './Navigation'
 
 class Home extends Component {
   render() {
     return (
+      <>
+      <div><Navigation navMarker='home'/></div>
+
       <div className='contentWrapper'>
         <div className='slideWrapper'>
          
@@ -23,6 +27,7 @@ class Home extends Component {
           </p>
         </div>
       </div>
+      </>
     );
   }
 }
