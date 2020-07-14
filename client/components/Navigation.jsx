@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import buttonSource from '../../server/public/data/source'
-
+//EXTERNAL SOURCE DATA
+import buttonSource from '../../server/public/data/sourceButton'
 
 
 const Navigation = props => {
@@ -28,8 +28,6 @@ const Navigation = props => {
         </div>
       </div>
     )
-
 }
-
 
 export default Navigation;

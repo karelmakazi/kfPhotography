@@ -1,17 +1,13 @@
-// SOURCE DATA
+// BUTTON SOURCE DATA
 
-
-//BUTTONS
 const buttonSource = [
   {pageID: 'home',
-    buttonList: ['Home',
-                  'Preschools', 
+    buttonList: [ 'Preschools', 
                   'Portraits', 
                   'Events',
                   'Our Process',
                   'Make a Booking'],
-    buttonLinks: ['/',
-                  '/Preschools',
+    buttonLinks: ['/Preschools',
                   '/Portraits',
                   '/Events',
                   '/Our Process',
@@ -82,16 +78,20 @@ const buttonSource = [
                   '/Events',
                   '/Our Process']
   },
+
+  {pageID: 'footer',
+    buttonList: ['Contact Us',
+                  'Utsuwa Leather', 
+                  'Twitter', 
+                  'Instagram',
+                  'Wat ookal'],
+    buttonLinks: ['/Bookings',
+                  '/Preschools',
+                  '/Portraits',
+                  '/Events',
+                  '/Our Process']
+  },
   
 ]
 
-const copySource = [
-  {pageID: 'home',
-    section1: '',
-    section2: '',
-    section3: '',
-  }
-]
-
-
-export default buttonSource
+export default buttonSource  

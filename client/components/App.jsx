@@ -13,7 +13,6 @@ import Portraits from './Portraits'
 const App = () => {
   return (
     <div className='appContainer'>
-      {/* <Navigation /> */}
       <Route exact path='/' component={ Home } />
       <Route exact path='/Preschool' component={ Preschool } />
       <Route exact path='/Portraits' component={ Portraits } />

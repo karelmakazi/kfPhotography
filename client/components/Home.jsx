@@ -1,11 +1,24 @@
 import React, { Component } from 'react';
 import Navigation from './Navigation'
 
+//EXTERNAL SOURCE DATA
+import copySource from '../../server/public/data/sourceCopy'
+
+const navMarker = 'home'
+
+let pageText = copySource.find(source => source.pageID === navMarker)
+let quoteSection1 = pageText.quoteSection1
+let quoteSection2 = pageText.quoteSection2
+let quoteSection3 = pageText.quoteSection3
+let bodyCopy1 = pageText.bodyCopy1
+
+
+
 class Home extends Component {
   render() {
     return (
       <>
-      <div><Navigation navMarker='home'/></div>
+      <div><Navigation navMarker={navMarker}/></div>
 
       <div className='contentWrapper'>
         <div className='slideWrapper'>
@@ -13,17 +26,15 @@ class Home extends Component {
         </div>
         <div className='copyWrapper'>
           <div className='quoteBody'>
-              “Which of my photographs is my favourite? <br></br> 
-              The one I’m going to take tomorrow.”<br></br> 
-            <span className='quoteAuthor'>
-              — Imogen Cunningham
-            </span>
+            <div>{quoteSection1}</div>
+            <div>{quoteSection2}</div>
+            <span className='quoteAuthor'> {quoteSection3} </span>
           </div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            {bodyCopy1}
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            {bodyCopy1}
           </p>
         </div>
       </div>

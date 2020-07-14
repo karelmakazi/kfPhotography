@@ -74,6 +74,7 @@ button:focus {
   justify-content: center;
 }
 
+
 .logoStrip{
   height: 75%;
   width: 100%;
@@ -81,10 +82,19 @@ button:focus {
   justify-content: center;
   align-items: center;
   background-color: #260505;
-  }
+}
 
 .navStrip{
   height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F24444;
+}
+
+.footerStrip {
+  margin-top: 4%;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -116,4 +126,10 @@ button:focus {
   font-size: 20px;
   color: #260505;
  
+}
+
+.footerButton{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  font-size: 1.1rem;
 }
