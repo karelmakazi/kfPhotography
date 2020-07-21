@@ -2,7 +2,7 @@
 
 const buttonSource = [
   {pageID: 'home',
-    buttonList: [ 'Preschools', 
+    buttonList: [ 'Preschools',
                   'Portraits', 
                   'Events',
                   'Our Process',

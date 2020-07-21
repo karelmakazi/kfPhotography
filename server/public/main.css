@@ -1,18 +1,22 @@
 /* INDEX */
 
 /* GLOBAL */
+body{
+  
+}
+
 h1{
   margin: 0;
   font-family: 'Satisfy', cursive;
   font-size: 60px;
-  color: #F24444;
+  color: #163840;
 }
 
 h2{
   margin: 0;
   font-family: 'Satisfy', cursive;
-  font-size: 50px;
-  color: #F24444;
+  font-size: 45px;
+  color: #F21905;
 }
 
 p{
@@ -29,7 +33,7 @@ button {
   display: inline-block;
   border: none;
   margin: 0;
-  background-color: #F24444;
+  background-color: #4E8DA6;
   text-decoration: none;
   color: #ffffff;
   font-family: 'Ubuntu', sans-serif;
@@ -45,6 +49,7 @@ button:hover,
 button:focus {
   font-weight: 500;
   outline: none;
+  color: #F21905;
 }
 
 
@@ -64,8 +69,8 @@ button:focus {
   height:600px;
   width:70%;
   margin: 3%;
-  border: 5px solid #F24444;
-  background-color: #260505;
+  border: 5px solid #163840;
+  background-color: #4E8DA6;
 }
 
 .copyWrapper{
@@ -74,22 +79,28 @@ button:focus {
   justify-content: center;
 }
 
+.copySection{
+  border-left: 4px solid #4E8DA6;
+  padding-left: 1.5%;
+  margin-bottom: 6%;
+ }
 
 .logoStrip{
-  height: 75%;
+  height: 70%;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #260505;
+  background-color: #163840;
 }
 
 .navStrip{
-  height: 25%;
+  height: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #F24444;
+  background-color: #4E8DA6;
+  border-bottom: 10px solid #163840;
 }
 
 .footerStrip {
@@ -98,7 +109,7 @@ button:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #F24444;
+  background-color: #4E8DA6;
 }
 
 /* FORMATTING */
@@ -110,7 +121,7 @@ button:focus {
   align-items: center;
   font-family: 'Satisfy', cursive;
   font-size: 75px;
-  color: #F24444;
+  color: #6BB0BF;
 }
 
 .quoteBody{
@@ -126,6 +137,11 @@ button:focus {
   font-size: 20px;
   color: #260505;
  
+}
+
+.copyBody{
+  margin-top: 0;
+  text-align: left;
 }
 
 .footerButton{
