@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Navigation from './Navigation'
+import Package from './Package' 
 
 //EXTERNAL SOURCE DATA
 import copySource from '../../server/public/data/sourceCopy'
@@ -26,24 +27,29 @@ class Portraits extends Component {
         </div>
         <div className='copyWrapper'>
           <div className='copySection'>
-            <h2>Packages</h2>
+            <h2>Portrait Packages</h2>
+            <div className='packageWrapper'>
+              
+            </div>
+          </div>
+          <div className='copySection'>
+            <h2>Our Process</h2>
             <p className='copyBody'>
               'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
           </div>
           <div className='copySection'>
-            <h2>What to Expect</h2>
+            <h2>On the Day</h2>
             <p className='copyBody'>
               'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
           </div>
           <div className='copySection'>
-            <h2>Booking Process</h2>
+            <h2>FUCK THIS</h2>
             <p className='copyBody'>
               'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
           </div>
-          
           
         </div>
       </div>
