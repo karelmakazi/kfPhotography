@@ -9,6 +9,7 @@ import Home from './Home'
 import Preschool from './Preschool'
 import Portraits from './Portraits'
 import Process from './Process'
+import Test from './Test'
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Route exact path='/Events' component={ Events } />
       <Route exact path='/Contact' component={ Contact } />
       <Route exact path='/Process' component={ Process } />
+      <Route exact path='/Test' component={ Test } />
       <Footer />
     </div>
   )

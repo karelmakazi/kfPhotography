@@ -2,18 +2,11 @@ import React, { Component } from 'react';
 import Navigation from './Navigation'
 import Package from './Package' 
 
-//EXTERNAL SOURCE DATA
+//EXTERNAL SOURCE DATA 
+//TEXT
 import copySource from '../../server/public/data/sourceCopy'
 
 const navMarker = 'portraits'
-
-// let pageText = copySource.find(source => source.pageID === navMarker)
-// let quoteSection1 = pageText.quoteSection1
-// let quoteSection2 = pageText.quoteSection2
-// let quoteSection3 = pageText.quoteSection3
-// let bodyCopy1 = pageText.bodyCopy1
-
-
 
 class Portraits extends Component {
   render() {
@@ -29,7 +22,7 @@ class Portraits extends Component {
           <div className='copySection'>
             <h2>Portrait Packages</h2>
             <div className='packageWrapper'>
-              
+              <Package />
             </div>
           </div>
           <div className='copySection'>

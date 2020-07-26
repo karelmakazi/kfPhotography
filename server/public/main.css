@@ -19,6 +19,14 @@ h2{
   color: #F21905;
 }
 
+h3{
+  margin: 0;
+  font-family: 'Satisfy', cursive;
+  font-size: 34px;
+  line-height: 1;
+  color: #F21905;
+}
+
 p{
   font-family: 'Ubuntu', sans-serif;
   font-weight: 300;
@@ -77,6 +85,41 @@ button:focus {
   width: 70%;
   align-items: center;
   justify-content: center;
+}
+
+.packageWrapper{
+  display:flex;
+}
+
+.packageContainer{
+  width: 38%;
+  height: 50%;
+  margin-right: 2%;
+  /* border: 3px solid #F24444;
+  border-radius: 10px; */
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  font-size: 100%;
+
+}
+
+.packageTitle{
+  height:15%;
+  margin-top: 5%;
+}
+
+.packageSummary{
+  width:75%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.packagePrice{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  padding-bottom: 5%;
+  color: #F21905;
 }
 
 .copySection{
@@ -148,4 +191,20 @@ button:focus {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 300;
   font-size: 1.1rem;
+}
+
+.packageFine {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  font-size: .9rem;
+}
+
+.packageButton{
+  font-family: 'Satisfy', cursive;
+  font-size: 2.3rem;
+  color: #F21905;
+  background-color: white;
+  text-align: left;
+  padding-left: 0;
+  margin-top: 20px;
 }

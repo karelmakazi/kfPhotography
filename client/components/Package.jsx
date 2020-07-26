@@ -18,23 +18,15 @@ class Package extends Component {
                     <div className='packageTitle'>
                       <h3>{pack.packTitle}</h3>
                     </div>
-                    <div className='packageIncludes'>
-                      <span id='packageHeading'>Includes </span>
-                      {pack.packIncludes}
-                    </div>
-                    <div className='packageTime'>
-                      <span id='packageHeading'>Duration </span>
-                     {pack.packTime}
-                    </div>
-                    <div className='packageLocation'>
-                      <span id='packageHeading'>Location </span>
-                      {pack.packLocation}
+                    <div className='packageSummary'>
+                      {pack.packSummary}
                     </div>
                     <div className='packagePrice'>
                       {pack.packPrice}
+                      <div className='packageFine'>{pack.packFine}</div>
                     </div>
                     <Link to='/Bookings'>
-                      <button className='packageButton'>Book</button>
+                      <button className='packageButton'>Book Session </button>
                     </Link>
                   </div>
           )
