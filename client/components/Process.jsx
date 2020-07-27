@@ -6,6 +6,9 @@ class Process extends Component {
       <div>
         <h1> Bookings </h1>
       </div>
+      <div className='contentWrapper'>
+        
+      </div>
     );
   }
 }
