@@ -14,10 +14,23 @@ const Navigation = props => {
   
   return (
       <div className='headerWrapper'>
-        <div className='logoStrip'>
-          <div className='logo'>Karel Fourie Photography</div>
+        <div className='headerStrip'>
+          <div className='headerTier1'></div>
+          <div className='headerTier2'></div>
+          <div className='headerTier3'></div>
+          <div className='headerTier4'></div>
+          <div className='headerTitleStrip'>
+            <div className='headerSubHead'>
+              Karel Fourie
+            </div>
+            <div className='headerMainHead'>
+             Photography
+            </div>
         </div>
-        <div className='navStrip'>
+        </div>
+
+
+        {/* <div className='navStrip'>
           {buttonList.map((text, index) => {
             return (
               <Link to={buttonLinks[index]} key={index}>
@@ -25,7 +38,9 @@ const Navigation = props => {
               </Link>
             )
           })}
-        </div>
+        </div> */}
+
+
       </div>
     )
 }
