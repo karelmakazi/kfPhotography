@@ -64,7 +64,7 @@ button:focus {
  background-color: burlywood;
 }
 
-.headerTitleStrip{
+/* .headerTitleStrip{
   position: absolute;
   box-sizing:border-box;
   top: 9px;
@@ -73,49 +73,67 @@ button:focus {
   width:40%;
   background-color: darkseagreen;
   z-index: 10;
-}
+} */
 
-.headerSubHead{
+/* .headerSubHead{
   height:40%;
   padding-left: 3%;
   padding-top: 20px;
   font-family: 'Satisfy', cursive;
   font-size: 34px;
   background-color: dimgray;
-}
+} */
 
-.headerMainHead{
+/* .headerMainHead{
   height:60%;
   padding-left: 2%;
   padding-bottom: 10px;
   background-color: white;
   font-family: 'Satisfy', cursive;
   font-size: 400%;
-}
+} */
 
 .headerStrip {
+  display: flex;
   height: 100%;
   padding-bottom: 10px;
   border: 1px dashed #163840;
 }
 
+.headerStripLeft{
+  height: 100%;
+  width: 5%;
+}
+.headerTitleBlock{
+  height: 100%;
+  width: 30%;
+  line-height: 1.1;
+  padding-left: 10px;
+  padding-top: 15px;
+  background-color:white;
+}
+.headerStripRight{
+  height: 100%;
+  width: 65%;
+}
+
 .headerTier1{
-  background-color: darkgoldenrod;
+  background-color: white;
   height:70%;
   width:100%;
 }
 .headerTier2{
-  background-color: rgb(143, 108, 20);
+  background-color:#4E8DA6;
   height:10%;
   width:100%;
 }
 .headerTier3{
-  background-color: rgb(87, 69, 25);
+  background-color: #163840;
   height:10%;
   width:100%;
 }
 .headerTier4{
-  background-color: rgb(44, 36, 15);
+  background-color:white;
   height:10%;
   width:100%;
 }

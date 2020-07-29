@@ -14,34 +14,44 @@ const Navigation = props => {
   
   return (
       <div className='headerWrapper'>
+
         <div className='headerStrip'>
-          <div className='headerTier1'></div>
-          <div className='headerTier2'></div>
-          <div className='headerTier3'></div>
-          <div className='headerTier4'></div>
-          <div className='headerTitleStrip'>
-            <div className='headerSubHead'>
-              Karel Fourie
-            </div>
-            <div className='headerMainHead'>
-             Photography
-            </div>
-        </div>
-        </div>
+          <div className='headerStripLeft'>
+            <div className='headerTier1'></div>
+            <div className='headerTier2'></div>
+            <div className='headerTier3'></div>
+            <div className='headerTier4'></div>
+          </div>
+          <div className='headerTitleBlock'>
+            <h3>Karel Fourie</h3>
+            <h1>Photography</h1>
 
-
-        {/* <div className='navStrip'>
-          {buttonList.map((text, index) => {
-            return (
-              <Link to={buttonLinks[index]} key={index}>
-                <button className='mainNavigation' value=''> {text} </button>
-              </Link>
-            )
-          })}
-        </div> */}
+          </div>
+          <div className='headerStripRight'>
+            <div className='headerTier1'></div>
+            <div className='headerTier2'></div>
+            <div className='headerTier3'></div>
+            <div className='headerTier4'></div>
+          </div>
+        </div>
+        
 
 
       </div>
+
+
+        // {/* <div className='navStrip'>
+        //   {buttonList.map((text, index) => {
+        //     return (
+        //       <Link to={buttonLinks[index]} key={index}>
+        //         <button className='mainNavigation' value=''> {text} </button>
+        //       </Link>
+        //     )
+        //   })}
+        // </div> */}
+
+
+      // </div>
     )
 }
 
