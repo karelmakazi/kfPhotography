@@ -7,7 +7,6 @@ import packageSource from '../../server/public/data/packageSource'
 class Package extends Component {
 
   render() {
-  
     return (
       <>
         {packageSource.map((pack, index) => {
