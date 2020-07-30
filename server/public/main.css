@@ -12,7 +12,7 @@ h2{
   margin: 0;
   font-family: 'Satisfy', cursive;
   font-size: 45px;
-  color: #F21905;
+  color: #163840;
 }
 
 h3{
@@ -20,7 +20,7 @@ h3{
   font-family: 'Satisfy', cursive;
   font-size: 34px;
   line-height: 1;
-  color: #F21905;
+  color: #4E8DA6;
 }
 
 p{
@@ -169,7 +169,7 @@ button:focus {
   font-weight: 500;
   font-size: 1.5rem;
   padding-bottom: 5%;
-  color: #F21905;
+  color: #163840;
 }
 
 .copySection{
@@ -190,10 +190,6 @@ button:focus {
 .navStrip{
   height: 20%;
   display: flex;
-  /* justify-content: center;
-  align-items: center;
-  background-color: #4E8DA6;
-  border-bottom: 10px solid #163840; */
 }
 
 .footerStrip {
@@ -247,13 +243,14 @@ button:focus {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 300;
   font-size: .9rem;
+  color: #4E8DA6;
 }
 
 .packageButton{
   font-family: 'Satisfy', cursive;
-  font-size: 1.5rem;
-  color:white;
-  background-color: #F24444;
+  font-size: 2rem;
+  /* color:white; */
+  /* background-color: #F24444; */
   text-align: center;
   height:40px;
   padding-top: 3px;

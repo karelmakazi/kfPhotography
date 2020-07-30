@@ -15,6 +15,8 @@ const Navigation = props => {
   //Dynamic Title
   let topTitle = (navDataMarker === 'Home') ? 'Karel Fourie' : 'Karel Fourie Photography'
   let subTitle = (navDataMarker === 'Home') ? 'Photography' : navDataMarker
+  let subTitleWeight = (navDataMarker === 'Home') ? '34px' : '24px'
+  let mainTitleWeight = (navDataMarker === 'Home') ? '400%' : '450%'
   
   return (
       <div className='headerWrapper'>
@@ -29,8 +31,8 @@ const Navigation = props => {
             <div className='headerTier1'></div>
           </div>
           <div className='headerTitleBlock'>
-            <span className='topTitle'>{topTitle}</span><br></br>
-            <span className='mainTitle'>{subTitle}</span>
+            <span className='topTitle' style={{fontSize: subTitleWeight}}>{topTitle}</span><br></br>
+            <span className='mainTitle' style={{fontSize: mainTitleWeight}}>{subTitle}</span>
           </div>
           <div className='headerStripRight'>
             <div className='headerTier1'></div>

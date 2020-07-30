@@ -20,7 +20,7 @@ class Portraits extends Component {
         </div>
         <div className='copyWrapper'>
           <div className='copySection'>
-            <h2>Portrait Packages</h2>
+            <h2>Our Portrait Packages</h2>
             <div className='packageWrapper'>
               <Package />
             </div>
