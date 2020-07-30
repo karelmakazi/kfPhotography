@@ -6,7 +6,7 @@ import Package from './Package'
 //TEXT
 import copySource from '../../server/public/data/sourceCopy'
 
-const navMarker = 'portraits'
+const navMarker = 'Portraits'
 
 class Portraits extends Component {
   render() {

@@ -4,7 +4,7 @@ import Navigation from './Navigation'
 //EXTERNAL SOURCE DATA
 import copySource from '../../server/public/data/sourceCopy'
 
-const navMarker = 'preschools'
+const navMarker = 'Preschools'
 
 let pageText = copySource.find(source => source.pageID === navMarker)
 let quoteSection1 = pageText.quoteSection1

@@ -1,7 +1,7 @@
 // BUTTON SOURCE DATA
 
 const buttonSource = [
-  {pageID: 'home',
+  {pageID: 'Home',
     buttonList: [ 'Preschools',
                   'Portraits', 
                   'Events',
@@ -14,7 +14,7 @@ const buttonSource = [
                   '/Bookings']
   },
   
-  {pageID: 'preschools',
+  {pageID: 'Preschools',
     buttonList: ['Home',
                   'Portraits', 
                   'Events',
@@ -27,7 +27,7 @@ const buttonSource = [
                   '/Bookings',]
     },
   
-  {pageID: 'portraits',
+  {pageID: 'Portraits',
     buttonList: ['Home',
                   'Preschools', 
                   'Events',
@@ -40,7 +40,7 @@ const buttonSource = [
                   '/Bookings',]
   },
   
-  {pageID: 'events',
+  {pageID: 'Events',
     buttonList: ['Home',
                   'Preschools', 
                   'Portraits', 
@@ -53,7 +53,7 @@ const buttonSource = [
                   '/Bookings']
   },
   
-  {pageID: 'process',
+  {pageID: 'Process',
     buttonList: ['Home',
                   'Preschools', 
                   'Portraits', 
@@ -66,7 +66,7 @@ const buttonSource = [
                   '/Bookings']
   },
   
-  {pageID: 'booking',
+  {pageID: 'Booking',
     buttonList: ['Home',
                   'Preschools', 
                   'Portraits', 
