@@ -10,7 +10,7 @@ const buttonSource = [
     buttonLinks: ['/Preschools',
                   '/Portraits',
                   '/Events',
-                  '/Our Process',
+                  '/Process',
                   '/Bookings']
   },
   
@@ -23,7 +23,7 @@ const buttonSource = [
     buttonLinks: ['/',
                   '/Portraits',
                   '/Events',
-                  '/Our Process',
+                  '/Process',
                   '/Bookings',]
     },
   
@@ -36,7 +36,7 @@ const buttonSource = [
     buttonLinks: ['/',
                   '/Preschools',
                   '/Events',
-                  '/Our Process',
+                  '/Process',
                   '/Bookings',]
   },
   
@@ -49,11 +49,11 @@ const buttonSource = [
     buttonLinks: ['/',
                   '/Preschools',
                   '/Portraits',
-                  '/Our Process',
+                  '/Process',
                   '/Bookings']
   },
   
-  {pageID: 'Process',
+  {pageID: 'Our Process',
     buttonList: ['Home',
                   'Preschools', 
                   'Portraits', 
@@ -76,7 +76,7 @@ const buttonSource = [
                   '/Preschools',
                   '/Portraits',
                   '/Events',
-                  '/Our Process']
+                  '/Process']
   },
 
   {pageID: 'footer',
@@ -89,7 +89,7 @@ const buttonSource = [
                   '/Preschools',
                   '/Portraits',
                   '/Events',
-                  '/Our Process']
+                  '/Process']
   },
   
 ]

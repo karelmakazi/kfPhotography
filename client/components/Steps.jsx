@@ -11,16 +11,13 @@ class Steps extends Component {
         {processSource.map((step, index) => {
           return (
                   <div className='stepContainer'>
-                    <div className='stepTitle'>
-                      <div className='stepNumber'>
-                        {step.stepNumber}
-                      </div>
+                    <div className='stepTitleWrapper'>
                       <div className='stepTitle'>
-                        <h3>{step.stepTitle}</h3>
+                        <h3 className='h3Dark'>{step.stepTitle}</h3>
                       </div>
                     </div>
                     <div className='stepSummary'>
-                      {pack.stepDescription}
+                      {step.stepDescription}
                     </div>
                   </div>
                   )

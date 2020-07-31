@@ -142,6 +142,21 @@ button:focus {
   display:flex;
 }
 
+.stepWrapper{
+  margin-top: 6%;
+  display:flex;
+  flex-direction: column;
+}
+
+.stepNumber{
+  width:3%;
+  margin-right: .5%;
+  padding-bottom: 3%;
+  font-family: 'Satisfy', cursive;
+  font-size: 34px;
+  color: #4E8DA6;
+}
+
 .packageContainer{
   width: 38%;
   height: 50%;
@@ -149,6 +164,21 @@ button:focus {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 300;
   font-size: 100%;
+}
+
+.stepContainer{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 50%;
+  margin-right: 2%;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  font-size: 100%;
+}
+
+.stepTitleWrapper{
+  display:flex;
 }
 
 .packageTitle{
@@ -160,6 +190,13 @@ button:focus {
   height:125px;
   width:75%;
   padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.stepSummary{
+  height:10%;
+  width:100%;
+  padding-top: 1%;
   padding-bottom: 5%;
 }
 
@@ -249,8 +286,6 @@ button:focus {
 .packageButton{
   font-family: 'Satisfy', cursive;
   font-size: 2rem;
-  /* color:white; */
-  /* background-color: #F24444; */
   text-align: center;
   height:40px;
   padding-top: 3px;
@@ -271,4 +306,8 @@ button:focus {
   font-family: 'Satisfy', cursive;
   font-size: 400%;
   color: #163840;
+}
+
+.h3Dark{
+  color: #163840
 }
