@@ -195,7 +195,7 @@ button:focus {
 
 .stepSummary{
   height:10%;
-  width:100%;
+  width:80%;
   padding-top: 1%;
   padding-bottom: 5%;
 }
@@ -310,4 +310,8 @@ button:focus {
 
 .h3Dark{
   color: #163840
+}
+
+.number{
+  color:#4E8DA6;
 }

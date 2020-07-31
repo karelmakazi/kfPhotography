@@ -13,7 +13,9 @@ class Steps extends Component {
                   <div className='stepContainer'>
                     <div className='stepTitleWrapper'>
                       <div className='stepTitle'>
-                        <h3 className='h3Dark'>{step.stepTitle}</h3>
+                        <h3 className='h3Dark'>
+                        <span className='number'> {step.stepNumber}</span>
+                        {step.stepTitle}</h3>
                       </div>
                     </div>
                     <div className='stepSummary'>
