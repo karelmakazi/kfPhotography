@@ -19,19 +19,10 @@ const Navigation = props => {
   let mainTitleWeight = (navDataMarker === 'Home') ? '400%' : '450%'
   
   return (
-      <div className='headerWrapper'>
+      <div className='headerContainer'>
         <div className='logoWrapper'>
-          <div className='headerStripLeft'>
-            <div className='headerTier1'></div>
-            <div className='headerTier2'></div>
-            <div className='headerTier3'></div>
-            <div className='headerTier4'></div>
-            <div className='headerTier3'></div>
-            <div className='headerTier2'></div>
-            <div className='headerTier1'></div>
-          </div>
           <div className='headerTitleBlock'>
-            <span className='topTitle' style={{fontSize: subTitleWeight}}>{topTitle}</span><br></br>
+            <span className='subTitle' style={{fontSize: subTitleWeight}}>{topTitle}</span><br></br>
             <span className='mainTitle' style={{fontSize: mainTitleWeight}}>{subTitle}</span>
           </div>
           <div className='headerStripRight'>
