@@ -27,6 +27,7 @@ const Navigation = props => {
       </div>
 
         <div className='navContainer'>
+          <div className='insetLine'></div>
           {buttonList.map((text, index) => {
           return (
             <Link to={buttonLinks[index]} key={index}>

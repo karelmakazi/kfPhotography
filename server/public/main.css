@@ -8,8 +8,24 @@ body {
   background-color: wheat;
 }
 
-h1{
-  
+button {
+  display: inline-block;
+  height: 100%;
+  margin-right:2%;
+  padding-right: 4%;
+  margin: 0;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+  text-shadow: 0px .75px .75px #6BB0BF;
+  background-color: #32667b;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: left;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
 }
 
 
@@ -21,7 +37,7 @@ h1{
 
 .headerContainer{
   box-sizing:border-box;
-  height: 200px;
+  height: 178px;
   width: 100%;
   padding-top:20px;
   padding-left: 20px;
@@ -35,19 +51,17 @@ h1{
 }
 
 .navContainer{
-  height:20%;
+  height:15%;
   width:98%;
-  margin-top: 20px;
-  padding-top:10px;
-  border-top: 3px inset #071417;
+  margin-top: 15px;
+  padding-top:3px;
+  /* border-top: 3px inset #071417; */
 }
 
 /* TEXT TREATMENT */
 .mainTitle{
   font-family: 'Roboto Slab', serif;
   font-weight: 900;
-  /* text-shadow: 0px 1px 1px #6BB0BF; */
-  /* color: #071417; */
 }
 
 .subTitle{
@@ -56,8 +70,10 @@ h1{
 }
 
 /* ELEMENTS */
-.navContainer{
-  
+.insetLine{
+  height: 3px;
+  background-color: #071417;
+  border-bottom: .5px solid #649eab;
 }
 
 
