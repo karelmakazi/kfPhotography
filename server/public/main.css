@@ -5,7 +5,7 @@ font-family: 'Roboto Slab', serif; */
 
 /* GLOBAL */
 body {
-  background-color: wheat;
+  background-color: #b0d8e1;
 }
 
 button {
@@ -25,19 +25,27 @@ button {
   text-align: left;
   -webkit-appearance: none;
   -moz-appearance: none;
-
 }
 
+button:hover,
+button:focus {
+  color:#6BB0BF;
+  text-shadow:none;
+  outline: none;
+}
+
+.one-edge-shadow {
+  box-shadow: 0 8px 6px -6px rgb(48, 34, 24);
+}
 
 /* CONTAINERS */
 .appContainer{
   margin: 25px 20px 25px 20px;
-  background-color: blanchedalmond;
 }
 
 .headerContainer{
   box-sizing:border-box;
-  height: 178px;
+  height: 55%;
   width: 100%;
   padding-top:20px;
   padding-left: 20px;
@@ -55,13 +63,15 @@ button {
   width:98%;
   margin-top: 15px;
   padding-top:3px;
-  /* border-top: 3px inset #071417; */
+  padding-bottom: 5px;
 }
 
 .contentContainer{
-  height: 200px;
-  margin-top: 5px;
-  background-color: white;
+  height: 80vh;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 2%;
+  background-color: white
 }
 
 /* TEXT TREATMENT */

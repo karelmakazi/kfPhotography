@@ -19,7 +19,7 @@ const Navigation = props => {
   let mainTitleWeight = (navDataMarker === 'Home') ? '400%' : '450%'
   
   return (
-      <div className='headerContainer'>
+      <div className='headerContainer one-edge-shadow'>
  
       <div className='titleContainer'>
         <span className='subTitle' style={{fontSize: subTitleWeight}}>{topTitle}</span><br></br>
