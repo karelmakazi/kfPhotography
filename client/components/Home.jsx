@@ -20,7 +20,7 @@ class Home extends Component {
       <>
       <div><Navigation navMarker={navMarker}/></div>
 
-      <div className='contentWrapper'>
+      <div className='contentContainer'>
         <div className='slideWrapper'>
          
         </div>

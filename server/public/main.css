@@ -18,7 +18,7 @@ button {
   font-weight: 900;
   font-size: 1.5rem;
   text-shadow: 0px .75px .75px #6BB0BF;
-  background-color: #32667b;
+  background-color: #2e7c9b;
   border: none;
   text-decoration: none;
   cursor: pointer;
@@ -41,7 +41,7 @@ button {
   width: 100%;
   padding-top:20px;
   padding-left: 20px;
-  background-color: #32667b;
+  background-color: #2e7c9b;
 }
 
 .titleContainer{
@@ -56,6 +56,12 @@ button {
   margin-top: 15px;
   padding-top:3px;
   /* border-top: 3px inset #071417; */
+}
+
+.contentContainer{
+  height: 200px;
+  margin-top: 5px;
+  background-color: white;
 }
 
 /* TEXT TREATMENT */
