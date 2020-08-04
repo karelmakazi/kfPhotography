@@ -1,8 +1,15 @@
 /* INDEX */
 
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto Slab', serif; */
+
 /* GLOBAL */
 body {
   background-color: wheat;
+}
+
+h1{
+  
 }
 
 
@@ -14,9 +21,43 @@ body {
 
 .headerContainer{
   box-sizing:border-box;
-  height: 13vw;
+  height: 200px;
   width: 100%;
   padding-top:20px;
   padding-left: 20px;
-  background-color: crimson;
+  background-color: #32667b;
 }
+
+.titleContainer{
+  color: #071417;
+  text-shadow: 0px 1px 1px #6BB0BF;
+  line-height: 1;
+}
+
+.navContainer{
+  height:20%;
+  width:98%;
+  margin-top: 20px;
+  padding-top:10px;
+  border-top: 3px inset #071417;
+}
+
+/* TEXT TREATMENT */
+.mainTitle{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 900;
+  /* text-shadow: 0px 1px 1px #6BB0BF; */
+  /* color: #071417; */
+}
+
+.subTitle{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+
+/* ELEMENTS */
+.navContainer{
+  
+}
+
+

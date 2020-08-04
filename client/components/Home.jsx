@@ -12,6 +12,8 @@ let quoteSection2 = pageText.quoteSection2
 let quoteSection3 = pageText.quoteSection3
 let bodyCopy1 = pageText.bodyCopy1
 
+
+
 class Home extends Component {
   render() {
     return (

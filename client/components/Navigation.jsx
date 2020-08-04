@@ -20,22 +20,13 @@ const Navigation = props => {
   
   return (
       <div className='headerContainer'>
-        <div className='logoWrapper'>
-          <div className='headerTitleBlock'>
-            <span className='subTitle' style={{fontSize: subTitleWeight}}>{topTitle}</span><br></br>
-            <span className='mainTitle' style={{fontSize: mainTitleWeight}}>{subTitle}</span>
-          </div>
-          <div className='headerStripRight'>
-            <div className='headerTier1'></div>
-            <div className='headerTier2'></div>
-            <div className='headerTier3'></div>
-            <div className='headerTier4'></div>
-            <div className='headerTier3'></div>
-            <div className='headerTier2'></div>
-            <div className='headerTier1'></div>
-          </div>
-        </div>
-        <div className='navWrapper'>
+ 
+      <div className='titleContainer'>
+        <span className='subTitle' style={{fontSize: subTitleWeight}}>{topTitle}</span><br></br>
+        <span className='mainTitle' style={{fontSize: mainTitleWeight}}>{subTitle}</span>
+      </div>
+
+        <div className='navContainer'>
           {buttonList.map((text, index) => {
           return (
             <Link to={buttonLinks[index]} key={index}>
