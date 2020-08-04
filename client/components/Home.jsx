@@ -21,19 +21,18 @@ class Home extends Component {
       <div><Navigation navMarker={navMarker}/></div>
 
       <div className='contentContainer one-edge-shadow'>
-        <div className='slideWrapper'>
-         
+        <div className='slideContainer'>
         </div>
-        <div className='copyWrapper'>
+        <div className='copyContainer'>
           <div className='quoteBody'>
             <div>{quoteSection1}</div>
             <div>{quoteSection2}</div>
             <span className='quoteAuthor'> {quoteSection3} </span>
           </div>
-          <p>
+          <p className='paragraphContainer'>
             {bodyCopy1}
           </p>
-          <p>
+          <p className='paragraphContainer'>
             {bodyCopy1}
           </p>
         </div>
