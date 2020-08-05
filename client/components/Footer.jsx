@@ -13,8 +13,8 @@ const Footer = props => {
   let footerLinks = footerLinkData.buttonLinks
   
   return (
-      <div className='footerWrapper'>
-        <div className='footerStrip'>
+      <div className='footerContainer'>
+        <div className='footerNavigation'>
           {footerList.map((text, index) => {
             return (
               <Link to={footerLinks[index]} key={index}>

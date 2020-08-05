@@ -34,9 +34,16 @@ button:focus {
   outline: none;
 }
 
+h2 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: #e34031
+}
+
 p{
   font-family: 'Montserrat', sans-serif;
-  font-size: 1rem;
+  font-size: .9rem;
   line-height: 1.2;
   color: #163840;
 }
@@ -92,9 +99,18 @@ p{
   background-color: #4E8DA6;
 }
 
-.paragraphContainer{
+.copyContainer{
   padding-left: 4%;
   padding-right: 4%;
+}
+
+.footerContainer {
+  margin-top: 10px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2e7c9b;
 }
 
 /* TEXT TREATMENT */
@@ -130,5 +146,10 @@ p{
   border-bottom: .5px solid #649eab;
 }
 
+.footerButton {
+  font-size: 1rem;
+  width: 200px;
+  text-align: center;
+}
 
 

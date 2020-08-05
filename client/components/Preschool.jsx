@@ -20,32 +20,29 @@ class Preschool extends Component {
       <>
       <div><Navigation navMarker={navMarker}/></div>
 
-      <div className='contentWrapper'>
-        <div className='slideWrapper'>
+      <div className='contentContainer'>
+        <div className='slideContainer'>
          
         </div>
-        <div className='copyWrapper'>
-          <div className='copySection'>
+        <div className='copyContainer'>
+          {/* <div className='copySection'> */}
             <h2>Packages</h2>
-            <p className='copyBody'>
+            <p className='paragraphContainer'>
               'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
           </div>
-          <div className='copySection'>
+          <div className='copyContainer'>
             <h2>What to Expect</h2>
-            <p className='copyBody'>
+            <p className='paragraphContainer'>
               'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
           </div>
-          <div className='copySection'>
+          <div className='copyContainer'>
             <h2>Booking Process</h2>
-            <p className='copyBody'>
+            <p className='paragraphContainer'>
               'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
           </div>
-          
-          
-        </div>
       </div>
       </>
     );
