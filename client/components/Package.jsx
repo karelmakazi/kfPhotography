@@ -12,21 +12,28 @@ class Package extends Component {
         {packageSource.map((pack, index) => {
           return (
                   <div className='packageBodyContainer'>
-                    <div className='packageTitle'>
-                      <h3>{pack.packTitle}</h3>
+                    <div className='packageTopContainer'>
+                      <div>
+                        <div className='packageTitle'>
+                          <h3>{pack.packTitle}</h3>
+                        </div>
+                        <div className='summaryContainer'>
+                          <p>{pack.packSummary}</p>
+                        </div>
+                      </div>
+                      <div>
+                        <div className='packagePrice'>
+                          {pack.packPrice}
+                          <div className='packageFine'>{pack.packFine}</div>
+                        </div>
+                      </div>
                     </div>
-                    <div className='summaryContainer'>
-                      <p>{pack.packSummary}</p>
-                    </div>
-                    <div className='packagePrice'>
-                      {pack.packPrice}
-                      <div className='packageFine'>{pack.packFine}</div>
+                    <div className='packageBottomContainer'>
+                      <Link to='/Bookings'>
+                        <button className='packageButton'>Book Session </button>
+                      </Link>
                     </div>
 
-                    <Link to='/Bookings'>
-                      <button className='packageButton'>Book Session </button>
-                    </Link>
-                    
                   </div>
           )
         })}
