@@ -11,20 +11,22 @@ class Package extends Component {
       <>
         {packageSource.map((pack, index) => {
           return (
-                  <div className='packageContainer'>
+                  <div className='packageBodyContainer'>
                     <div className='packageTitle'>
                       <h3>{pack.packTitle}</h3>
                     </div>
-                    <div className='packageSummary'>
-                      {pack.packSummary}
+                    <div className='summaryContainer'>
+                      <p>{pack.packSummary}</p>
                     </div>
                     <div className='packagePrice'>
                       {pack.packPrice}
                       <div className='packageFine'>{pack.packFine}</div>
                     </div>
+
                     <Link to='/Bookings'>
                       <button className='packageButton'>Book Session </button>
                     </Link>
+                    
                   </div>
           )
         })}

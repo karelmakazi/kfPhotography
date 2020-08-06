@@ -40,6 +40,14 @@ h2 {
   font-size: 1.5rem;
   color: #e34031
 }
+h3 {
+  margin-top: 0;
+  margin-bottom: 2px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 900;
+  font-size: 1.3rem;
+  color: #e34031
+}
 
 p{
   font-family: 'Montserrat', sans-serif;
@@ -50,6 +58,10 @@ p{
 
 .one-edge-shadow {
   box-shadow: 0 8px 6px -6px rgb(48, 34, 24);
+}
+
+.insetText {
+  text-shadow: 0px .75px .75px #6BB0BF;
 }
 
 /* CONTAINERS */
@@ -81,11 +93,12 @@ p{
 }
 
 .contentContainer{
+  overflow:scroll;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  height: 90vh;
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 2%;
@@ -104,6 +117,24 @@ p{
   padding-right: 4%;
 }
 
+.packageContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50%;
+  margin-right: 2%;
+}
+
+.packageBodyContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30%;
+  padding-left: 10px;
+  margin-bottom:20px;
+  border-left: 2px solid #e34031
+}
+
 .footerContainer {
   margin-top: 10px;
   height: 40px;
@@ -111,6 +142,10 @@ p{
   justify-content: center;
   align-items: center;
   background-color: #2e7c9b;
+}
+
+.summaryContainer{
+  width:70%;
 }
 
 /* TEXT TREATMENT */
@@ -139,6 +174,21 @@ p{
   font-size: .8rem;
 }
 
+.packagePrice{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 900;
+  font-size: 1.3rem;
+  padding-bottom: 5%;
+  color: #e34031;
+}
+
+.packageFine {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  font-size: .9rem;
+}
+
+
 /* ELEMENTS */
 .insetLine{
   height: 3px;
@@ -146,10 +196,20 @@ p{
   border-bottom: .5px solid #649eab;
 }
 
+.packageButton{
+  padding-left: 0;
+  font-size: 1.3rem;
+  background-color: white;
+  color: #e34031;
+  text-align: left;
+  text-shadow: none;
+}
+
 .footerButton {
   font-size: 1rem;
   width: 200px;
   text-align: center;
+  text-shadow: none;
 }
 
 

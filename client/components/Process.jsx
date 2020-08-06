@@ -10,8 +10,8 @@ class Process extends Component {
       <>
       <div><Navigation navMarker={navMarker}/></div>
 
-      <div className='contentWrapper'>
-        <div className='copyWrapper'>
+      <div className='contentContainer'>
+        <div className='copyContainer'>
           <div className='copySection'>
             <div className='stepWrapper'>
               <Steps />

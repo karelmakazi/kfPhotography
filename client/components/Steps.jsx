@@ -19,7 +19,7 @@ class Steps extends Component {
                       </div>
                     </div>
                     <div className='stepSummary'>
-                      {step.stepDescription}
+                      <p>{step.stepDescription}</p>
                     </div>
                   </div>
                   )

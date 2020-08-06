@@ -14,24 +14,24 @@ class Portraits extends Component {
       <>
       <div><Navigation navMarker={navMarker}/></div>
 
-      <div className='contentWrapper'>
-        <div className='slideWrapper'>
+      <div className='contentContainer'>
+        <div className='slideContainer'>
          
         </div>
         <div className='copyWrapper'>
-          <div className='copySection'>
+          <div className='copyContainer'>
             <h2>Our Portrait Packages</h2>
-            <div className='packageWrapper'>
+            <div className='packageContainer'>
               <Package />
             </div>
           </div>
-          <div className='copySection'>
+          <div className='copyContainer'>
             <h2>Our Process</h2>
             <p className='copyBody'>
               'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
           </div>
-          <div className='copySection'>
+          <div className='copyContainer'>
             <h2>On the Day</h2>
             <p className='copyBody'>
               'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

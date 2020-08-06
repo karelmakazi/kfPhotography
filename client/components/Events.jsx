@@ -20,11 +20,11 @@ class Events extends Component {
       <>
       <div><Navigation navMarker={navMarker}/></div>
 
-      <div className='contentWrapper'>
-        <div className='slideWrapper'>
+      <div className='contentContainer'>
+        <div className='slideContainer'>
          
         </div>
-        <div className='copyWrapper'>
+        <div className='copyContainer'>
           <div className='copySection'>
             <h2>Packages</h2>
             <p className='copyBody'>
