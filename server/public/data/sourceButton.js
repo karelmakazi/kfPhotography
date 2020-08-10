@@ -83,12 +83,10 @@ const buttonSource = [
     buttonList: ['Contact Us',
                   'Utsuwa Leather', 
                   'Twitter', 
-                  'Instagram',
-                  'Wat ookal'],
+                  'Instagram'],
     buttonLinks: ['/Bookings',
                   '/Preschools',
                   '/Portraits',
-                  '/Events',
                   '/Process']
   },
   
